@@ -92,7 +92,7 @@ def write_single_test_case_to_file(l, out, sep=" ", last=False):
         out.write("\n")
 
 
-for tc in range(SET_NAME):
+for tc in range(N_TC):
     input = open(f"input/input{tc}.txt", "w")
     output = open(f"output/output{tc}.txt", "w")
 
